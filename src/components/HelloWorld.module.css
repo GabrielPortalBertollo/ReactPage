@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: rgb(227, 227, 227);
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.linksUl{
+    list-style: none;
+    li{
+        margin-left: 1rem;
+        float: left;
+    }
+}
+
+.title{
+    text-align: center;
+    color: black;
+}
+
+main{
+    min-height: 90vh;
+}
+
+footer{
+    background-color: black;
+    height: 5vh;
+    text-align: center;
+}
